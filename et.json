@@ -1,0 +1,72 @@
+{
+    "accounts": "Kasutajad",
+    "account": "Kasutaja",
+    "waypoints": "Waypointid",
+    "waypoint": {
+      "edit": "Muuda waypoint’i",
+      "waypoint": "Sihtmärk",
+      "labels": {
+        "name": "Nimi",
+        "label": "Märgid",
+        "coords": "Koordinaadid"
+      },
+      "msg": {
+        "error": {
+          "waypoint_missing": "Teekonnapunkti nimega '{name}' ei eksisteeri (enam).",
+          "waypoint_exist": "Teekonnapunkt '{name}' on juba olemas.",
+          "no_waypoints": "Hetkel pole ühtegi teekonnapunkti saadaval.",
+          "missingFields": "Täitke kõik nõutavad väljad.",
+          "failedFetchWaypoints": "Teekonnapunkte ei saanud tuua."
+        }
+      },
+      "deleteHeader": "Kustuta",
+      "deleteMsg": "Kas soovite tõesti kustutada <span class='text-primary'>{name}</span>?  Seda ei saa olematuks teha!",
+      "modalHeader": "Valige teekonnapunkt"
+    },
+    "generalContextMenuHeader": "Üldine",
+    "teleportPlayerHeader": "Valige mängija keda teleporteerida",
+    "copyCoordsToClipboard": "Kopeeri koordinaadid",
+    "teleportTo": "Teleporteeri mängija",
+    "createWaypoint": "Loo uus asukoht",
+    "labels": {
+      "selectedPlayer": "Valitud mängija"
+    },
+    "btn": {
+      "loadFromWaypoint": "Lae asukohad"
+    },
+    "msg": {
+      "success": {
+        "coordsCopied": "Edukalt kopeeritud"
+      },
+      "error": {
+        "noPlayersOnline": "Hetkel pole võrgus ühtegi mängijat, keda teleportida.",
+        "errorCopyCoords": "Koordinatsioone ei saanud lõikelauale kopeerida."
+      }
+    },
+    "waypointList": {
+      "subheader": "Hallake oma teekonnapunkte.",
+      "createWaypoint": "Loo teekonnapunkt",
+      "noData": "Pole vastet",
+      "loadData": "Andmete laadimine",
+      "headers": {
+        "name": "Nimi",
+        "label": "Märgis",
+        "coords": "Koordinaadid"
+      },
+      "recordsPerPage": "Kirjeid lehekülje kohta",
+      "paginationLabel": "{from}-{to} / {total}"
+    },
+    "accountList": {
+      "subheader": "Hankige mängijad nende konto järgi.",
+      "noData": "Pole vastet",
+      "loadData": "Lae andmeid",
+      "headers": {
+        "name": "Nimi",
+        "license": "License",
+        "character_count": "Karakterid",
+        "last_active": "Viimati onlines"
+      },
+      "recordsPerPage": "Kirjeid lehekülje kohta",
+      "paginationLabel": "{from}-{to} / {total}"
+    }
+}
