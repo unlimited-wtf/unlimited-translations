@@ -502,13 +502,22 @@
       "changeAccountHeader": "Change license",
       "changeAccountSub": "Do you really want to change the license for player <span class='text-primary'>{name}</span>? This cannot be undone!",
       "playerScreenHeader": "The players current view",
+      "addMoneyHeader": "Add money",
+      "addMoneyMsg": "Enter the amount",
+      "removeMoneyHeader": "Remove money",
+      "removeMoneyMsg": "Enter the amount",
       "buttons": {
         "unban": "Reset ban",
         "warn": "Warn",
         "ban": "Ban",
         "kick": "Kick",
         "inventory": "Inventory",
-        "screen": "Show Screen"
+        "screen": "Show Screen",
+        "money": {
+          "set": "Set",
+          "give": "Give",
+          "remove": "Remove"
+        }
       },
       "banMsg": "\uD83D\uDD28 by '{by}' for '{reason}' until {expire}.",
       "moneyDisclaimer": "This does not support money of any type as item.",
@@ -587,7 +596,8 @@
           "failedFetchJobs": "Failed to fetch jobs.",
           "deleteError": "Something went wrong.",
           "couldNotFetchScreen": "Error while fetching players current screen.",
-          "invalid_citizenid": "The issued Citizen-ID is not valid."
+          "invalid_citizenid": "The issued Citizen-ID is not valid.",
+          "not_allowed": "The money type is either not found or no negative value allowed."
         }
       }
     },
