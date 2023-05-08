@@ -502,13 +502,22 @@
       "changeAccountHeader": "Zmiana licencji",
       "changeAccountSub": "Czy naprawdę chcesz zmienić licencję dla gracza <span class='text-primary'>{name}</span>? Tego nie da się cofnąć!",
       "playerScreenHeader": "Aktualny widok gracza",
+      "addMoneyHeader": "Dodaj pieniądze",
+      "addMoneyMsg": "Wpisz kwotę",
+      "removeMoneyHeader": "Usuń pieniądze",
+      "removeMoneyMsg": "Wpisz kwotę",
       "buttons": {
         "unban": "Odbanuj",
         "warn": "Ostrzeżenie",
         "ban": "Zbanuj",
         "kick": "Wyrzuć",
         "inventory": "Ekwipunek",
-        "screen": "Pokaż ekran"
+        "screen": "Pokaż ekran",
+        "money": {
+          "set": "Ustaw",
+          "give": "Daj",
+          "remove": "Usuń"
+        }
       },
       "banMsg": "\uD83D\uDD28 przez '{by}' za '{reason}' do {expire}.",
       "moneyDisclaimer": "To nie obsługuje pieniędzy dowolnego typu jako przedmiotu.",
@@ -587,7 +596,8 @@
           "failedFetchJobs": "Nie udało się pobrać prac.",
           "deleteError": "Coś poszło nie tak.",
           "couldNotFetchScreen": "Błąd podczas pobierania bieżącego ekranu graczy.",
-          "invalid_citizenid": "Wydany dokument Citizen-ID jest nieważny."
+          "invalid_citizenid": "Wydany dokument Citizen-ID jest nieważny.",
+          "not_allowed": "Typ pieniędzy nie został znaleziony lub nie jest dozwolona wartość ujemna."
         }
       }
     },
