@@ -502,13 +502,22 @@
       "changeAccountHeader": "Change license",
       "changeAccountSub": "பிளேயருக்கான உரிமத்தை நீங்கள் உண்மையில் மாற்ற விரும்புகிறீர்களா <span class='text-primary'>{name}</span>? இதை மீணஂடூமஂ இயக்க முடியாது!",
       "playerScreenHeader": "வீரர்களின் தற்போதைய பார்வை",
+      "addMoneyHeader": "பணம் சேர்",
+      "addMoneyMsg": "தொகையை உள்ளிடவும்",
+      "removeMoneyHeader": "பணத்தை அகற்று",
+      "removeMoneyMsg": "தொகையை உள்ளிடவும்",
       "buttons": {
         "unban": "தடையை மீட்டமைக்கவும்",
         "warn": "எச்சரிக்கை",
         "ban": "தடை",
         "kick": "உதை",
         "inventory": "Inventory",
-        "screen": "திரையைக் காட்டு"
+        "screen": "திரையைக் காட்டு",
+        "money": {
+          "set": "அமைக்கவும்",
+          "give": "கொடுங்கள்",
+          "remove": "அகற்று"
+        }
       },
       "banMsg": "\uD83D\uDD28 '{by}'மூலம் '{reason}'க்கான {expire} வரை தடை விதிகஂகபஂபடுகிறது.",
       "moneyDisclaimer": "இது எந்த வகையிலும் பணத்தை உருப்படியாக ஆதரிக்காது.",
@@ -587,7 +596,8 @@
           "failedFetchJobs": "வேலைகளைப் பெற முடியவில்லை.",
           "deleteError": "ஏதோ தவறு நடந்துவிட்டது.",
           "couldNotFetchScreen": "வீரர்களின் தற்போதைய திரையைப் பெறுவதில் பிழை.",
-          "invalid_citizenid": "வழங்கப்பட்ட Citizen-ID தவறானது."
+          "invalid_citizenid": "வழங்கப்பட்ட Citizen-ID தவறானது.",
+          "not_allowed": "பண வக கணடபடககபபடவலல அலலத எதரமற மதபப அனமதககபபடவலல."
         }
       }
     },
