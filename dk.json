@@ -1,827 +1,837 @@
-
+{
   "general": {
-    "timestamp": "Zeitpunkt",
-    "logout": "Ausloggen",
-    "username": "Benutzername",
-    "password": "Passwort",
-    "confirmPassword": "Passwort bestätigen",
-    "setupToken": "Token",
+    "timestamp": "Tidsstempel",
+    "logout": "Log ud",
+    "username": "Brugernavn",
+    "password": "Adgangskode",
+    "confirmPassword": "Bekræft adgangskode",
+    "setupToken": "Nøgle",
     "languages": {
-      "de": "Deutsch",
-      "en": "Englisch",
-      "dk": "Dänisch",
-      "et": "Estnisch",
-      "pl": "Polnisch",
-      "pt": "Portogisisch",
-      "ta": "Indisch - Tamil"
+      "de": "German",
+      "en": "English",
+      "dk": "Danish",
+      "et": "Estonia",
+      "pl": "Polski",
+      "pt": "Portugisisk",
+      "ta": "Indisk - Tamil"
     },
-    "save": "Speichern",
-    "delete": "Löschen",
-    "search": "Suchen",
-    "change": "Ändern",
-    "success": "Erfolgreich",
-    "error": "Error",
-    "saved": "Speichern erfolgreich.",
-    "deleted": "Löschen erfolgreich.",
-    "cleared": "Leerung erfolgreich.",
-    "ok": "Ok",
-    "cancel": "Abbrechen",
-    "create": "Erstellen",
-    "back": "Zurück",
-    "changePassword": "Passwort ändern",
-    "kick": "Kicken",
-    "ban": "Bannen",
-    "fillUp": "Auffüllen",
-    "relax": "Entspannen",
-    "add": "Hinzufügen",
-    "added": "Hinzugefügt",
-    "teleport": "Teleportieren",
-    "teleported": "Erfolgreich teleportiert",
-    "cantReach": "Server nicht erreichbar.",
-    "male": "Männlich",
-    "female": "Weiblich",
+    "save": "Gem",
+    "delete": "Fjern",
+    "search": "Søg",
+    "change": "Skift",
+    "success": "Succes",
+    "error": "Fejl",
+    "saved": "Gemt.",
+    "deleted": "Fjernet.",
+    "cleared": "Du har ryddet det hele.",
+    "ok": "Okay",
+    "cancel": "Annuller",
+    "create": "Opret",
+    "back": "TIlbage",
+    "changePassword": "Skift adgangskode",
+    "kick": "Kick",
+    "ban": "Ban",
+    "fillUp": "Fyld up",
+    "relax": "Slap af",
+    "add": "TIlføj",
+    "added": "Tilføjet",
+    "teleport": "Teleporter",
+    "teleported": "Teleporteret",
+    "cantReach": "Kan ikke reagere til serveren.",
+    "male": "Mand",
+    "female": "Kvinde",
     "yes": "Ja",
-    "no": "Nein",
+    "no": "Nej",
     "reason": "Grund",
-    "time": "Dauer",
-    "bantime": "Dauer in Sekunden.",
-    "warnHeader": "Verwarnen",
-    "warnMsg": "Mit welchem Grund soll <span class='text-primary'>{name}</span> verwarnt werden?",
-    "warnBanHeader": "Banns/Verwarnungen",
-    "banHeader": "Bannen",
-    "banMsg": "Mit welchem Grund und wie lange soll <span class='text-primary'>{name}</span> gebannt werden?",
-    "banSuccess": "Der Spieler wurde gebannt.",
-    "unbanHeader": "Entbannen",
-    "unbanMsg": "Möchtest du <span class='text-primary'>{name}</span> wirklich entbannen?",
-    "unbanSuccess": "Der Spieler wurde entbannt.",
-    "kickHeader": "Kicken",
-    "kickMsg": "Mit welchem Grund soll <span class='text-primary'>{name}</span> gekickt werden?",
-    "kickSuccess": "Der Spieler wurde gekickt.",
-    "toggleAll": "Alle umschalten",
-    "heal": "Heilen",
-    "offline": "Spieler offline",
-    "or": "oder",
-    "timeout": "Zeitüberschreitung der Abfrage."
+    "time": "Tid",
+    "bantime": "Tid i sekunder.",
+    "warnHeader": "Advarsel",
+    "warnMsg": "Skriv advarsels grund for <span class='text-primary'>{name}</span>.",
+    "warnBanHeader": "Ban/Advarsel",
+    "banHeader": "Ban",
+    "banMsg": "Skriv ban grund og tidspunkt <span class='text-primary'>{name}</span>.",
+    "banSuccess": "Spilleren er blevet banned.",
+    "unbanHeader": "Fjern ban",
+    "unbanMsg": "Er du sikker på du vil unbanne <span class='text-primary'>{name}</span>?",
+    "unbanSuccess": "SPilleren er levet unbanned.",
+    "kickHeader": "Kick",
+    "kickMsg": "Skriv kick grund <span class='text-primary'>{name}</span>.",
+    "kickSuccess": "Spilleren er blevet smidt ud.",
+    "toggleAll": "Slå alle til",
+    "heal": "Genopfrisk",
+    "offline": "Spiller offline",
+    "or": "eller",
+    "timeout": "Anmodningen blev afbrudt."
   },
   "breadcrumb": {
-    "vehicles": "Fahrzeuge",
-    "vehicle": "Fahrzeug",
-    "items": "Items",
-    "item": "Item",
-    "jobs": "Jobs",
-    "job": "Job",
-    "gangs": "Gangs",
-    "gang": "Gang",
-    "users": "Benutzer",
-    "user": "Benutzer",
-    "roles": "Rollen",
+    "vehicles": "Biler",
+    "vehicle": "Bil",
+    "items": "Genstande",
+    "item": "Genstand",
+    "jobs": "Arbejde",
+    "job": "Arbejde",
+    "gangs": "Bander",
+    "gang": "Bande",
+    "users": "Brugere",
+    "user": "Bruger",
+    "roles": "Roller",
     "role": "Rolle",
-    "map": "Karte",
-    "dashboard": "Dashboard",
+    "map": "Map",
+    "dashboard": "Overblik",
     "logs": "Logs",
-    "accounts": "Accounts",
-    "account": "Account",
-    "players": "Spieler",
-    "player": "Spieler",
-    "inventory": "Inventar",
-    "config": "Einstellungen",
-    "waypoints": "Wegmarken",
-    "waypoint": "Wegmarke"
+    "accounts": "Spillere",
+    "account": "Spiller",
+    "players": "Spillere",
+    "player": "Spiller",
+    "inventory": "Beholdning",
+    "config": "Konfiguration",
+    "waypoints": "Waypoints",
+    "waypoint": "Waypoint"
   },
   "rules": {
-    "required": "Dies ist ein Pflichtfeld.",
-    "passwordConfirm": "Passwörter stimmen nicht überein.",
-    "noSpace": "Kein Leerzeichen erlaubt.",
-    "numbers": "Nur Zahlen erlaubt.",
-    "unique": "Muss eindeutig sein.",
-    "defaults": "Es sind keine Standard Variablennamen erlaubt.",
-    "onlyCharsNumbers": "Es sind nur Leerzechen, Nummern und Buchstaben erlaubt."
+    "required": "Dette felt er påkrævet.",
+    "passwordConfirm": "Adgangskoderne er ikke ens.",
+    "noSpace": "Mellemrum er ikke tiladt.",
+    "numbers": "Kun tal er tilladt.",
+    "unique": "Skal være unik.",
+    "defaults": "Ingen standard ord er tilladt.",
+    "onlyCharsNumbers": "Kun mellemrum, tal og tegn er tilladt."
   },
   "navigation": {
     "header": {
-      "gameserver": "Gameserver",
-      "development": "Development",
-      "management": "Verwaltung"
+      "gameserver": "Spilserver",
+      "development": "Udvikler",
+      "management": "Ledelse"
     },
     "titles": {
-      "dashboard": "Dashboard",
+      "dashboard": "Overblik",
       "livemap": "Live Map",
-      "waypoint": "Wegmarken",
-      "account": "Accounts",
-      "player": "Spieler",
+      "waypoint": "Waypoint",
+      "account": "Spiller",
+      "player": "Spillere",
       "logs": "Logs",
-      "vehicle": "Fahrzeuge",
-      "items": "Items",
-      "jobs": "Jobs",
-      "gangs": "Gangs",
-      "users": "Benutzer",
-      "roles": "Rollen",
+      "vehicle": "Biler",
+      "items": "Genstande",
+      "jobs": "Arbejde",
+      "gangs": "Bande",
+      "users": "Brugere",
+      "roles": "Roller",
       "web": "Web",
-      "config": "Einstellungen"
+      "config": "Konfiguration"
     }
   },
   "components": {
     "general": {
-      "changePasswordHeader": "Password ändern",
-      "changePasswordMsg": "Bitte gebe dein neues Passwort ein.",
+      "changePasswordHeader": "Skift adgangskode",
+      "changePasswordMsg": "Skriv din nye adgangskode.",
       "msg": {
         "error": {
-          "user_missing": "Dein Benutzer konnte nicht gefunden werden."
+          "user_missing": "Din konto kunne ikke findes."
         }
       }
     },
     "dashboard": {
-      "cpu": "CPU",
-      "ram": "RAM",
-      "process": "Unlimited RAM",
-      "onlinePlayers": "Spieler online",
-      "gangOnline": "Gang Mitglieder online",
-      "jobsDuty": "Spieler im Dienst",
+      "cpu": "CPU brug",
+      "ram": "Ram brug",
+      "process": "Procesbrug",
+      "onlinePlayers": "Spillere online",
+      "gangOnline": "Bandemedlemmer online",
+      "jobsDuty": "Spillere på arbejde",
       "headers": {
-        "name": "Name",
-        "character": "Charakter",
-        "job": "Job",
-        "count": "Anzahl",
-        "gang": "Gang"
+        "name": "Navn",
+        "character": "Karakter",
+        "job": "Arbejde",
+        "count": "Antal",
+        "gang": "Bande"
       }
     },
     "setup": {
-      "finishButton": "Setup abschließen",
-      "backButton": "Vorherige",
-      "nextButton": "Weiter",
-      "welcomeHeader": "Willkommen",
-      "welcomeSub": "Willkommen im Unlimited Webpanel! Dieses Setup hilft dir bei der Einrichtung.",
-      "langHeader": "Sprachauswahl",
-      "langSub": "Wähle deine Sprache aus.",
-      "masterHeader": "Master Account",
-      "masterSub": "Dein Master Account hat, unabhängig von den Berechtigungen, immer volle Zugriffsrechte.",
-      "tokenHeader": "Setup Token",
-      "tokenSub": "Kopiere zur Verifizierung deinen Setup Token aus der Server-Console.",
-      "tokenPlaceHolder": "Setup Token einfügen"
+      "finishButton": "Afslut opsætning",
+      "backButton": "Tilbage",
+      "nextButton": "Næste",
+      "welcomeHeader": "Velkommen",
+      "welcomeSub": "Velkommen til Unlimited Panel.",
+      "langHeader": "Valg af sprog",
+      "langSub": "Vælg dit sprog.",
+      "masterHeader": "Hovedkonto",
+      "masterSub": "Din hovedkonto har altid fulde adgangsrettigheder, uanset tilladelser.",
+      "tokenHeader": "Opsætningsnøgle",
+      "tokenSub": "Kopiér din opsætningsnøgle fra serverkonsollen til validering.",
+      "tokenPlaceHolder": "Indsæt opsætningsnøgle"
     },
     "login": {
-      "subtext": "Willkommen beim Unlimitd Webpanel. Bitte melde dich an.",
+      "subtext": "Velkommen til Unlimited Panel. Vær venlig at logge ind.",
       "msg": {
         "error": {
-          "not_supported": "Der gewählte Provider scheint nicht unterstützt zu werden.",
-          "internal_error": "Interner Fehler. Bitte kontaktiere Unlimited mit einem Fehlerbericht."
+          "not_supported": "Den valgte udbyder ser ikke ud til at være understøttet.",
+          "internal_error": "Intern fejl. Kontakt Unlimited med din fejlmeddelelse."
         }
       }
     },
     "itemList": {
-      "subheader": "Alle Items aus der QBCore/Shared/items.lua. Über QB-Exports/Functions registrierte Items werden nicht angezeigt.",
-      "noData": "Keine Übereinstimmungen",
-      "loadData": "Lade Daten",
+      "subheader": "Alle genstande fra QBCore/Shared/items.lua. Genstande registreret via QB-Exports/Functions vises ikke.",
+      "noData": "Intet match",
+      "loadData": "indlæser data",
       "headers": {
         "label": "Label",
-        "type": "Typ",
-        "weight": "Gewicht",
-        "name": "Name",
-        "useable": "Benutzbar",
-        "unique": "Eindeutig",
-        "shouldClose": "Schließen"
+        "type": "Type",
+        "weight": "Vægt",
+        "name": "Navn",
+        "useable": "Brugbar",
+        "unique": "Unik",
+        "shouldClose": "Luk"
       },
-      "recordsPerPage": "Zeilen pro Seite",
-      "paginationLabel": "{from}-{to} von {total}",
-      "createItem": "Item anlegen"
+      "recordsPerPage": "Optegnelser pr. side",
+      "paginationLabel": "{from}-{to} of {total}",
+      "createItem": "Opret genstand"
     },
     "item": {
-      "name": "Name / Key",
-      "label": "Beschriftung",
-      "desc": "Beschreibung",
-      "image": "Icon",
-      "weight": "Gewicht",
-      "type": "Typ",
-      "useable": "Benutzbar",
-      "unique": "Eindeutig",
-      "shouldClose": "Schließen nach Benutzen",
-      "edit": "Item bearbeiten",
-      "customVariables": "Weitere Variablen",
-      "customVarSub": "Erstelle eigene Variablen für dein Item.",
-      "addCustomVar": "Neue Variable",
-      "customVarName": "Variable",
-      "customVarValue": "Wert",
-      "combinability": "Kombinierbarkeit",
-      "combinabSub": "Hier kann festgelegt werden, mit welchen Items das Item einzeln kombiniert werden kann, was es als Ergebnis erzeugt und welche Animation wie lange, welchen Text anzeigen soll.",
+      "name": "Navn / Nøgle",
+      "label": "Label",
+      "desc": "Beskrivelse",
+      "image": "Billede",
+      "weight": "Vægt",
+      "type": "Type",
+      "useable": "Brugbar",
+      "unique": "Unik",
+      "shouldClose": "Luk efter brug",
+      "edit": "Rediger element",
+      "customVariables": "Brugerdefinerede variabler",
+      "customVarSub": "Opret dine egne variabler.",
+      "addCustomVar": "Opret nye variabler",
+      "customVarName": "variabler",
+      "customVarValue": "Værdi",
+      "combinability": "Kombinerbarhed",
+      "combinabSub": "Her kan du angive, med hvilke elementer genstanden kan kombineres individuelt, hvad den genererer som resultat og hvilken animation der skal vises hvor længe og hvilken tekst.",
       "combinable": {
-        "accept": "Kombinierbar mit",
-        "reward": "Ergebnis",
-        "text": "Anzeigetext",
-        "timeOut": "Dauer",
-        "lib": "Animations Lib",
-        "dict": "Animations Dict"
+        "accept": "Kombiner med",
+        "reward": "Resultat",
+        "text": "Displaytekst",
+        "timeOut": "Tid",
+        "lib": "Animation Lib",
+        "dict": "Animation Dict"
       },
-      "deleteHeader": "Löschbestätigung",
-      "deleteMsg": "Willst du wirklich das Item <span class='text-primary'>{itemLabel} [{itemName}]</span> löschen? Dies kann nicht rückgängig gemacht werden!",
-      "deleteCustomVarMsg": "Willst du wirklich die Variable <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
+      "deleteHeader": "Fjern",
+      "deleteMsg": "Vil du fjerne dette <span class='text-primary'>{itemLabel} [{itemName}]</span>? Dette kan ikke fortrydes!",
+      "deleteCustomVarMsg": "Do you really want to delete the variable <span class='text-primary'>{name}</span>? This cannot be undone!",
       "msg": {
         "error": {
-          "invalid_item_name": "Der Item Name '{name}' ist kein String.",
-          "item_exists": "Das Item '{name}' existiert bereits.",
-          "item_not_exists": "Das Item '{name}' existiert nicht.",
-          "file_error": "Die Itemänderungen wurde live geschalten. Jedoch kam es beim Speichern der .lua zu einem Fehler. Nach einem Restart sind die Änderungen nicht mehr aktiv.",
-          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden.",
-          "uniqueVars": "Der Variablenname muss eindeutig sein.",
-          "filename_exists": "Es existiert bereits ein Bild mit dem Dateinamen."
+          "invalid_item_name": "Genstand navn'{name}' er ikke typen String.",
+          "item_exists": "Genstanden '{name}' eksisterer allerede.",
+          "item_not_exists": "Genstanden '{name}' eksisterer ikke.",
+          "file_error": "Vareændringen er gået live. Der opstod dog en fejl under lagring af .lua. Efter en genstart er ændringerne ikke længere aktiv.",
+          "missingFields": "Udfyld alle obligatoriske felter.",
+          "uniqueVars": "Variabler skal være unikke.",
+          "filename_exists": "Filnavn findes allerede."
         }
       },
-      "uploadedImage": "Bild erfolgreich hochgeladen.",
-      "uploadNew": "Lade ein Bild hoch",
-      "imageNotFound": "Das Bild existiert auf dem Server nicht."
+      "uploadedImage": "Billedet blev uploadet.",
+      "uploadNew": "Upload billede",
+      "imageNotFound": "Dette billede findes ikke."
     },
     "itemCreate": {
-      "new": "Neues Item anlegen"
+      "new": "Opret ny genstand"
     },
     "roleList": {
-      "subheader": "Verwalte die Rechte deines Teams mit eigenen Rollen.",
-      "noData": "Keine Übereinstimmungen",
-      "loadData": "Lade Daten",
-      "createRole": "Rolle anlegen",
+      "subheader": "Administrer tilladelser for dit team med tilpassede roller.",
+      "createRole": "Opret rolle",
+      "noData": "Intet match",
+      "loadData": "Indlæs  data",
       "headers": {
-        "name": "Name",
-        "desc": "Beschreibung",
-        "permissions": "Anzahl Berechtigungen",
-        "color": "Farbe"
+        "name": "Navn",
+        "desc": "Beskrivelse",
+        "permissions": "Antal tilladelser",
+        "color": "Farve"
       },
-      "recordsPerPage": "Zeilen pro Seite",
-      "paginationLabel": "{from}-{to} von {total}"
+      "recordsPerPage": "Optegnelser pr. side",
+      "paginationLabel": "{from}-{to} of {total}"
     },
     "role": {
-      "name": "Name",
-      "edit": "Rolle bearbeiten",
-      "desc": "Beschreibung",
-      "color": "Farbe",
-      "permissions": "Berechtigungen",
-      "permissionSub": "Weise deiner Rolle eigene Rechte zu.",
+      "name": "Navn",
+      "edit": "Rediger rolle",
+      "desc": "Beskrivelse",
+      "color": "Farve",
+      "permissions": "Tilladelser",
+      "permissionSub": "Tildel dine egne rettigheder til din rolle.",
       "resource": {
-        "gameserver": "Gameserver",
-        "development": "Development",
-        "management": "Verwaltung"
+        "gameserver": "Spilserver",
+        "development": "Udvikler",
+        "management": "Ledelse"
       },
       "section": {
         "liveMap": "LiveMap",
-        "waypoint": "Wegmarken",
-        "account": "Account",
-        "player": "Spieler",
-        "vehicles": "Fahrzeuge",
+        "waypoint": "Waypoint",
+        "account": "Spiller",
+        "player": "Spiller",
+        "vehicles": "Biler",
         "logs": "Logs",
-        "items": "Items",
-        "jobs": "Jobs",
-        "gangs": "Gangs",
-        "user": "Benutzer",
-        "roles": "Rollen",
-        "config": "Einstellungen"
+        "items": "Genstande",
+        "jobs": "Arbejde",
+        "gangs": "Bande",
+        "user": "Brugere",
+        "roles": "Roller",
+        "config": "Configuration"
       },
       "action": {
-        "read": "Lesen",
-        "modify": "Bearbeiten",
-        "delete": "Löschen",
-        "create": "Erstellen",
-        "player": "Spieler anzeigen",
-        "vehicle": "Fahrzeuge anzeigen",
-        "kick": "Kicken",
-        "warn": "Verwarnen",
-        "ban": "Bannen",
-        "money": "Geld",
-        "meta": "Metadaten",
+        "read": "Læs",
+        "modify": "Ændre",
+        "delete": "Slet",
+        "create": "Opret",
+        "player": "Vis spillere",
+        "vehicle": "Vis biler",
+        "kick": "Kick",
+        "warn": "Advarsel",
+        "ban": "Ban",
+        "money": "Penge",
+        "meta": "Metadata",
         "position": "Position",
-        "inventory": "Inventar",
-        "screen": "Bildschirm",
+        "inventory": "Inventory",
+        "screen": "Vis skærm",
         "logs": {
-          "game": "Game",
-          "player": "Spieler",
+          "game": "Spil",
+          "player": "SPiller",
           "dev": "Dev",
           "web": "Web"
         }
       },
       "msg": {
         "error": {
-          "role_missing": "Die Role mit dem Namen '{name}' exisitert nicht (mehr).",
-          "role_exist": "Die Rolle mit dem Namen '{name}' existiert bereits.",
-          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden."
+          "role_missing": "ROlle med navn '{name}' eksisterer ikke (længere).",
+          "role_exist": "ROllen '{name}' eksisterer allerede.",
+          "missingFields": "Udfyld alle obligatoriske felter."
         }
       },
-      "deleteHeader": "Löschbestätigung",
-      "deleteMsg": "Willst du wirklich die Role <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!"
+      "deleteHeader": "Fjern",
+      "deleteMsg": "Vil du fjerne <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!"
     },
     "roleCreate": {
-      "new": "Neue Role anlegen"
+      "new": "Opret ny rolle"
     },
     "userList": {
-      "subheader": "Verwalte die Benutzeraccounts deines Teams.",
-      "noData": "Keine Übereinstimmungen",
-      "loadData": "Lade Daten",
-      "createUser": "Benutzer anlegen",
+      "subheader": "Administrer brugerkonti for dine teammedlemmer.",
+      "noData": "Intet match",
+      "loadData": "indlæser data",
+      "createUser": "Opret spiller",
       "headers": {
-        "name": "Name",
+        "name": "Navn",
         "role": "Rolle",
-        "master": "Master"
+        "master": "Mestre"
       },
-      "recordsPerPage": "Zeilen pro Seite",
-      "paginationLabel": "{from}-{to} von {total}"
+      "recordsPerPage": "Optegnelser pr. side",
+      "paginationLabel": "{from}-{to} of {total}"
     },
     "user": {
-      "edit": "Benutzer bearbeiten",
+      "edit": "Rediger bruger",
       "role": "Rolle",
       "fxname": "cfx.re",
       "msg": {
         "error": {
-          "user_missing": "Der Benutzer mit dem Namen '{name}' exisitert nicht (mehr).",
-          "user_exist": "Der Benutzer mit dem Namen '{name}' existiert bereits.",
-          "user_master": "Du kannst den Master User nicht löschen.",
-          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden.",
-          "is_master": "Das Passwort des Master Users kann nicht zurücksetzt werden.",
-          "fx_used": "Der cfx.re Name wird bereits verwendet."
+          "user_missing": "Bruger med navn '{name}' eksisterer ikke (længere).",
+          "user_exist": "Brugeren '{name}' eksisterer allerede.",
+          "user_master": "Du kan ikke slette hovedbrugeren.",
+          "missingFields": "Udfyld alle obligatoriske felter.",
+          "is_master": "Du kan ikke ændre hovedbrugerens adgangskode.",
+          "fx_used": "cfx.re brugeren er allerde i brug af en anden person"
         }
       },
-      "deleteHeader": "Löschbestätigung",
-      "deleteMsg": "Willst du wirklich den Benutzer <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
-      "resetPasswort": "Passwort zurücksetzen",
-      "resetPasswordHeader": "Zurücksetzen bestätigen",
-      "resetPasswordMsg": "Willst du wirklich das Passwort für <span class='text-primary'>{name}</span> zurücksetzen?"
+      "deleteHeader": "Fjern",
+      "deleteMsg": "Vil du fjerne <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
+      "resetPasswort": "Nulstil adgangskode",
+      "resetPasswordHeader": "Bekræft nulstilling",
+      "resetPasswordMsg": "VIl du nulstille adgangskoden for <span class='text-primary'>{name}</span>?"
     },
     "jobList": {
-      "subheader": "Alle Jobs aus der QBCore/Shared/jobs.lua. Über QB-Exports/Functions registrierte Jobs werden nicht angezeigt.",
-      "noData": "Keine Übereinstimmungen",
-      "loadData": "Lade Daten",
-      "createJob": "Job erstellen",
+      "subheader": "Alle job fra QBCore/Shared/jobs.lua. Job, der er registreret via QB-Exports/Functions, vises ikke.",
+      "noData": "Intet match",
+      "loadData": "indlæser data",
+      "createJob": "Opret arbejde",
       "headers": {
-        "name": "Name",
-        "label": "Bezeichnung",
-        "grades": "Anzahl Ränge",
-        "defaultDuty": "Standard Duty",
-        "offDutyPay": "Gehalt off Duty"
+        "name": "Navn",
+        "label": "Label",
+        "grades": "Grad tæller",
+        "defaultDuty": "Standard arbejde",
+        "offDutyPay": "Løn uden vagt"
       },
-      "recordsPerPage": "Zeilen pro Seite",
-      "paginationLabel": "{from}-{to} von {total}"
+      "recordsPerPage": "Optegnelser pr. side",
+      "paginationLabel": "{from}-{to} of {total}"
     },
     "jobCreate": {
-      "new": "Neuen Job anlegen"
+      "new": "Opret nyt arbejde"
     },
     "job": {
-      "name": "Name",
-      "edit": "Job bearbeiten",
-      "label": "Bezeichnung",
-      "defaultDuty": "Standard Duty",
-      "offDutyPay": "Gehalt off Duty",
-      "grades": "Ränge",
-      "gradesSub": "Lege die Ränge für deinen Job fest. Die Reihenfolge ist niedrigster Rang zu höchster Rang, von oben nach unten.",
-      "customVariables": "Weitere Variablen",
-      "customVarSub": "Erstelle eigene Variablen für deinen Job.",
-      "addCustomVar": "Neue Variable",
-      "customVarName": "Variable",
-      "customVarValue": "Wert",
+      "name": "Navn",
+      "edit": "Rediger job",
+      "label": "Label",
+      "defaultDuty": "Standard arbejde",
+      "offDutyPay": "Løn uden vagt",
+      "grades": "Grad",
+      "gradesSub": "Sæt rækkerne for dit job. Ordren går fra laveste rang til højeste rang, top til bund.",
+      "customVariables": "Tilpassede variabler",
+      "customVarSub": "Lav dine egne variabler.",
+      "addCustomVar": "Tilføj variabler",
+      "customVarName": "variabler",
+      "customVarValue": "Værdi",
       "msg": {
         "error": {
-          "invalid_job_name": "Der Jobname '{name}' ist kein String.",
-          "job_exists": "Der Job '{name}' existiert bereits.",
-          "job_not_exists": "Der Job '{name}' existiert nicht.",
-          "file_error": "Die Jobänderung wurde live geschalten. Jedoch kam es beim Speichern der .lua zu einem Fehler. Nach einem Restart sind die Änderungen nicht mehr aktiv.",
-          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden.",
-          "gradeNeeded": "Du musst mindestens einen Rang anlegen.",
-          "uniqueVars": "Der Variablenname muss eindeutig sein."
+          "invalid_job_name": "Jobnavnet '{name}' er ikke typen String.",
+          "job_exists": "Arbejdet '{name}' eksisterer allerede.",
+          "job_not_exists": "Arbejdet '{name}' eksisterer ikke.",
+          "file_error": "Jobskiftet er gået i luften. Der opstod dog en fejl under lagring af .lua. Efter en genstart er ændringerne ikke længere aktive.",
+          "missingFields": "Udfyld alle obligatoriske felter.",
+          "gradeNeeded": "Du skal have mindst én rang.",
+          "uniqueVars": "Variabler skal være unikke."
         }
       },
-      "deleteHeader": "Löschbestätigung",
-      "deleteMsg": "Willst du wirklich den Job <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
-      "deleteGradeMsg": "Willst du wirklich den Rang <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
-      "deleteCustomVarMsg": "Willst du wirklich die Variable <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
+      "deleteHeader": "Fjern",
+      "deleteMsg": "Vil du fjerne <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
+      "deleteGradeMsg": "Vil du fjerne <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
+      "deleteCustomVarMsg": "Vil du virkelig slette variablen <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
       "headers": {
-        "name": "Name",
-        "isboss": "Boss",
-        "payment": "Lohn"
+        "name": "Navn",
+        "isboss": "Chef",
+        "payment": "Betaling"
       },
-      "addGrade": "Rang hinzufügen"
+      "addGrade": "Tilføj grad"
     },
     "gangList": {
-      "subheader": "Alle Gangs aus der QBCore/Shared/gangs.lua. Über QB-Exports/Functions registrierte Gangs werden nicht angezeigt.",
-      "noData": "Keine Übereinstimmungen",
-      "loadData": "Lade Daten",
-      "createGang": "Gang erstellen",
+      "subheader": "Alle bander fra QBCore/Shared/gangs.lua. Bander registreret via QB-Exports/Functions vises ikke.",
+      "noData": "Intet match",
+      "loadData": "indlæser data",
+      "createGang": "Opret bande",
       "headers": {
-        "name": "Name",
-        "label": "Bezeichnung",
-        "grades": "Anzahl Ränge"
+        "name": "Navn",
+        "label": "Label",
+        "grades": "Grad tæller"
       },
-      "recordsPerPage": "Zeilen pro Seite",
-      "paginationLabel": "{from}-{to} von {total}"
+      "recordsPerPage": "Optegnelser pr. side",
+      "paginationLabel": "{from}-{to} of {total}"
     },
     "gangCreate": {
-      "new": "Neue Gang anlegen"
+      "new": "Opret ny bande"
     },
     "gang": {
-      "name": "Name",
-      "edit": "Gang bearbeiten",
-      "label": "Bezeichnung",
-      "grades": "Ränge",
-      "gradesSub": "Lege die Ränge für deine Gang fest. Die Reihenfolge ist niedrigster Rang zu höchster Rang, von oben nach unten.",
-      "customVariables": "Weitere Variablen",
-      "customVarSub": "Erstelle eigene Variablen für deine Gang.",
-      "addCustomVar": "Neue Variable",
-      "customVarName": "Variable",
-      "customVarValue": "Wert",
+      "name": "Navn",
+      "edit": "Rediger bande",
+      "label": "Label",
+      "grades": "Grad",
+      "gradesSub": "Sæt rækkerne for din bande. Ordren går fra laveste rang til højeste rang, top til bund.",
+      "customVariables": "Brugerdefinerede variabler",
+      "customVarSub": "Lav dine egne variabler.",
+      "addCustomVar": "Tilføj nye variabler",
+      "customVarName": "variabler",
+      "customVarValue": "Værdi",
       "msg": {
         "error": {
-          "invalid_gang_name": "Der Gangname '{name}' ist kein String.",
-          "gang_exists": "Die Gang '{name}' existiert bereits.",
-          "gang_not_exists": "Die Gang '{name}' existiert nicht.",
-          "file_error": "Die Gangänderung wurde live geschalten. Jedoch kam es beim Speichern der .lua zu einem Fehler. Nach einem Restart sind die Änderungen nicht mehr aktiv.",
-          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden.",
-          "gradeNeeded": "Du musst mindestens einen Rang anlegen.",
-          "uniqueVars": "Der Variablenname muss eindeutig sein."
+          "invalid_gang_name": "Bande navnet '{name}' er ikke typen String.",
+          "gang_exists": "Banden '{name}' eksisterer allerede.",
+          "gang_not_exists": "Banden '{name}' eksisterer ikke.",
+          "file_error": "Bandeskiftet er gået live. Der opstod dog en fejl under lagring af .lua. Efter en genstart er ændringerne ikke længere aktive.",
+          "missingFields": "Udfyld alle obligatoriske felter.",
+          "gradeNeeded": "Du skal have mindst én rang.",
+          "uniqueVars": "Vvariabler skal være unikke."
         }
       },
-      "deleteHeader": "Löschbestätigung",
-      "deleteMsg": "Willst du wirklich die Gang <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
-      "deleteGradeMsg": "Willst du wirklich den Rang <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
-      "deleteCustomVarMsg": "Willst du wirklich die Variable <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
+      "deleteHeader": "Fjern",
+      "deleteMsg": "VIl du fjerne <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
+      "deleteGradeMsg": "Vil du fjerne <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
+      "deleteCustomVarMsg": "Vil du virkelig slette variablen <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
       "headers": {
-        "name": "Name",
-        "isboss": "Boss"
+        "name": "Navn",
+        "isboss": "Chef"
       },
-      "addGrade": "Rang hinzufügen"
+      "addGrade": "Tilføj grad"
     },
     "liveMap": {
-      "viewPlayerTab": "Spielerakte anzeigen",
-      "viewVehicleTab": "Fahrzeugakte anzeigen",
-      "noOnlinePlayers": "Keine Spieler online",
-      "noSpawnedVehicles": "Keine Fahrzeuge außerhalb der Garagen",
-      "generalContextMenuHeader": "Allgemein",
-      "teleportPlayerHeader": "Wähle einen Spieler zum Teleportieren",
-      "copyCoordsToClipboard": "Koordinaten kopieren",
-      "teleportTo": "Spieler teleportieren",
-      "createWaypoint": "Wegmarke erstellen",
+      "viewPlayerTab": "Se spillerrekord",
+      "viewVehicleTab": "Se køretøjsrekord",
+      "noOnlinePlayers": "Ingen spillere online",
+      "noSpawnedVehicles": "Ingen køretøjer spawned",
+      "generalContextMenuHeader": "Generel",
+      "teleportPlayerHeader": "Vælg spiller, du vil teleportere",
+      "copyCoordsToClipboard": "Kopier koordinater",
+      "teleportTo": "Teleporter spiller",
+      "createWaypoint": "Sæt et waypoint",
       "markers": {
-        "vehicles": "Fahrzeuge",
-        "players": "Spieler"
+        "vehicles": "Biler",
+        "players": "Spillere"
       },
       "labels": {
-        "selectedPlayer": "Ausgewähler Spieler"
+        "selectedPlayer": "Valgte spiller"
       },
       "btn": {
-        "loadFromWaypoint": "Wegmarke laden"
+        "loadFromWaypoint": "Indlæs waypoint"
       },
       "msg": {
         "success": {
-          "coordsCopied": "Koordinaten erfolgreich in Zwischenablage kopiert."
+          "coordsCopied": "Koordinaterne blev kopieret til udklipsholderen."
         },
         "error": {
-          "noPlayersOnline": "Aktuell ist kein Spieler online.",
-          "errorCopyCoords": "Fehler beim Kopieren in die Zwischenablage."
+          "noPlayersOnline": "I øjeblikket er der ingen spillere online at teleportere.",
+          "errorCopyCoords": "Kunne ikke kopiere koordinater til udklipsholder."
         }
       }
     },
     "playerList": {
-      "subheader": "Alle registrierten Charaktere.",
-      "noData": "Keine Übereinstimmungen",
-      "loadData": "Lade Daten",
-      "recordsPerPage": "Zeilen pro Seite",
-      "paginationLabel": "{from}-{to} von {total}",
+      "subheader": "Alle registrerede spillere.",
+      "noData": "Intet match",
+      "loadData": "indlæser data",
+      "recordsPerPage": "Optegnelser pr. side",
+      "paginationLabel": "{from}-{to} of {total}",
       "headers": {
-        "firstname": "Vorname",
-        "lastname": "Nachname",
-        "gang": "Gang",
-        "job": "Job",
+        "firstname": "Fornavn",
+        "lastname": "Efternavn",
+        "gang": "Bande",
+        "job": "Arbejde",
         "online": "Online",
         "citizenid": "Citizen-ID",
-        "name": "Accountname"
+        "name": "Kontonavn"
       }
     },
     "player": {
       "tabs": {
-        "general": "Allgemein",
-        "vehicles": "Fahrzeuge",
+        "general": "Generel",
+        "vehicles": "Køretøjer",
         "logs": "Logs",
-        "notes": "Notizen"
+        "notes": "Noter"
       },
-      "pastBans": "Bannverlauf/Verwarnungen",
-      "changeJobHeader": "Job ändern",
-      "changeGangHeader": "Gang ändern",
-      "deleteHeader": "Spieler löschen",
-      "deletePlayerMsg": "Möchtest du den Spieler <span class='text-primary'>{name}</span> wirklick löschen? Dies kann nicht rückgängig gemacht werden!",
-      "changeAccountHeader": "Lizenz ändern",
-      "changeAccountSub": "Möchtest du wirklich die Lizenz für den Spieler <span class='text-primary'>{name}</span> ändern? Dies kann nicht rückgängig gemacht werden!",
-      "playerScreenHeader": "Aktueller Spielerbildschirm",
+      "pastBans": "Ban/Advarsel historie",
+      "changeJobHeader": "Skift arbejde",
+      "changeGangHeader": "Skift arbejde",
+      "deleteHeader": "Slet spiller",
+      "deletePlayerMsg": "Vil du slette denne spiller <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
+      "changeAccountHeader": "Skift licens",
+      "changeAccountSub": "Vil du virkelig ændre licensen for spiller <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
+      "playerScreenHeader": "Spillerens skærmbillede",
+      "addMoneyHeader": "Giv penge",
+      "addMoneyMsg": "Indtast beløb",
+      "removeMoneyHeader": "Fjern penge",
+      "removeMoneyMsg": "Indtast beløb",
       "buttons": {
-        "unban": "Bann aufheben",
-        "warn": "Verwarnen",
-        "ban": "Bannen",
-        "kick": "Kicken",
-        "inventory": "Inventar",
-        "screen": "Bildschirm betrachten"
+        "unban": "Nulstil ban",
+        "ban": "Ban",
+        "warn": "Advarsel",
+        "kick": "Kick",
+        "inventory": "Inventory",
+        "screen": "Vis skærm",
+        "money": {
+          "set": "Indsæt",
+          "give": "Giv",
+          "remove": "Fjern"
+        }
       },
-      "banMsg": "\uD83D\uDD28 von '{by}' für '{reason}' bis {expire}.",
-      "moneyDisclaimer": "Geld jeder Art als Item wird nicht unterstützt.",
+      "banMsg": "\uD83D\uDD28 af '{by}' for '{reason}' indtil {expire}.",
+      "moneyDisclaimer": "Dette understøtter ikke penge af nogen art som genstand.",
       "headers": {
-        "general": "Allgemein",
-        "charinfo": "Charakterinfo",
-        "meta": "Metadaten",
-        "money": "Währungen",
-        "gang": "Gang",
-        "job": "Job",
-        "actions": "Aktionen"
+        "general": "General",
+        "charinfo": "Karakter info",
+        "meta": "Metadata",
+        "money": "Penge",
+        "gang": "Bande",
+        "job": "Arbejde",
+        "actions": "Handlinger"
       },
       "labels": {
-        "name": "Accountname",
+        "name": "Kontonavn",
         "citizenid": "Citizen-ID",
-        "license": "Lizenz",
+        "license": "License",
         "position": "Position",
-        "firstname": "Vorname",
-        "lastname": "Nachname",
-        "account": "Account",
+        "firstname": "Fornavn",
+        "lastname": "Efternavn",
+        "account": "Konto",
         "cid": "Char-ID",
-        "gender": "Geschlecht",
-        "male": "männlich",
-        "female": "weiblich",
-        "birthdate": "Geburtstag",
-        "nationality": "Nationalität",
-        "phone": "Handy",
-        "backstory": "Charaktergeschichte",
-        "isdead": "Ist Tod",
-        "ishandcuffed": "Gefesselt",
-        "walletid": "Geldbörsen-ID",
-        "fingerprint": "Fingerabruck",
-        "bloodtype": "Blutgruppe",
-        "thirst": "Durst",
-        "hunger": "Hunger",
+        "gender": "Køn",
+        "male": "Mand",
+        "female": "Kvinde",
+        "birthdate": "Fødselsdag",
+        "nationality": "Nationalitet",
+        "phone": "Telefon",
+        "backstory": "Historie",
+        "isdead": "Er død",
+        "ishandcuffed": "Håndjern",
+        "walletid": "Pung-ID",
+        "fingerprint": "Fingeraftryk",
+        "bloodtype": "Blodtype",
+        "thirst": "Tørst",
+        "hunger": "Sult",
         "stress": "Stress",
-        "armor": "Rüstung",
+        "armor": "Armor",
         "job": {
-          "name": "Name",
-          "grade": "Rang"
+          "name": "Navn",
+          "grade": "grad"
         },
         "gang": {
-          "name": "Name",
-          "grade": "Rang"
+          "name": "Navn",
+          "grade": "grad"
         },
         "money": {
           "bank": "Bank",
           "crypto": "Crypto",
-          "cash": "Bargeld"
+          "cash": "Kontanter"
         },
-        "health": "Gesundheit",
+        "health": "Liv",
         "ip": "IP",
         "discord": "Discord",
-        "bucket": "Dimension"
+        "bucket": "Bucket"
       },
       "msg": {
         "success": {
-          "success": "Daten gespeichert.",
-          "hunger": "Hunger aufgefüllt.",
-          "thirst": "Durst aufgefüllt.",
-          "isdead": "Lebenszustand verändert.",
-          "ishandcuffed": "Handschellenzustand verändert.",
-          "changeJob": "Job geändert.",
-          "changeGang": "Gang geändert.",
-          "changedBucket": "Dimension geändert.",
-          "stress": "Stress gesenkt.",
-          "healed": "Spieler geheilt."
+          "success": "Data gemt.",
+          "hunger": "Sulten fyldtes op.",
+          "thirst": "Tørst fyldtes op.",
+          "isdead": "Ændret døds status.",
+          "ishandcuffed": "Ændret håndjerns status.",
+          "changeJob": "Arbejde skiftet.",
+          "changeGang": "Bande Skiftet.",
+          "changedBucket": "Bucket ændret.",
+          "stress": "Stress lindret.",
+          "healed": "Spiller genopfrisket."
         },
         "error": {
-          "notOnline": "Der Spieler ist nicht mehr online.",
-          "notFound": "Spieler nicht gefunden.",
-          "missingFields": "Fülle alle Felder aus.",
-          "changeJob": "Fehler beim Zuweisen des Jobs.",
-          "changeGang": "Fehler beim Zuweisen der Gang.",
-          "failedFetchGangs": "Fehler beim Laden der Gangs.",
-          "failedFetchJobs": "Fehler beim Laden der Jobs.",
-          "deleteError": "Da ist etwas schiefgelaufen.",
-          "couldNotFetchScreen": "Fehler beim Laden des Spielerbildschirms.",
-          "invalid_citizenid": "Die eingegebene Citizen-ID ist ungültig."
+          "notOnline": "Spilleren er ikke online.",
+          "notFound": "Spilleren blev ikke fundet.",
+          "missingFields": "Mangler nødvendige input.",
+          "changeJob": "Jobbet kunne ikke findes.",
+          "changeGang": "Banden kunne ikke findes.",
+          "failedFetchGangs": "Det lykkedes ikke at hente bander.",
+          "failedFetchJobs": "Jobs kunne ikke hentes.",
+          "deleteError": "Noget gik galt.",
+          "couldNotFetchScreen": "Fejl under visning af skærmbillede",
+          "invalid_citizenid": "Citizen-ID er ikke gyldigt.",
+          "not_allowed": "Pengetypen er ikke fundet eller ingen negativ værdi tilladt."
         }
       }
     },
     "vehicleList": {
-      "subheader": "Alle Spielerfahrzeuge.",
-      "noData": "Keine Übereinstimmungen",
-      "loadData": "Lade Daten",
-      "spawned": "Unterwegs",
+      "subheader": "Alle spillerkøretøjer.",
+      "noData": "Intet match",
+      "loadData": "indlæser data",
+      "spawned": "Spawned",
       "garage": "Garage",
-      "outside": "Unterwegs",
-      "inpound": "Beschlagnahmt",
+      "outside": "Uden for",
+      "inpound": "Beslaglagt",
       "headers": {
-        "owner": "Besitzer",
-        "plate": "Kennzeichen",
+        "owner": "Ejer",
+        "plate": "Nummerplade",
         "vehicle": "Model",
         "spawned": "Spawned",
         "state": "Status",
         "engine": "Motor",
-        "body": "Karosserie",
-        "fuel": "Sprit"
+        "body": "Krop",
+        "fuel": "Tank"
       },
-      "recordsPerPage": "Zeilen pro Seite",
-      "paginationLabel": "{from}-{to} von {total}",
-      "createVehicle": "Fahrzeug erstellen"
+      "recordsPerPage": "Optegnelser pr. side",
+      "paginationLabel": "{from}-{to} of {total}",
+      "createVehicle": "Opret køretøj"
     },
     "vehicle": {
       "despawnHeader": "Despawn",
-      "despawnMsg": "Möchtest du das aktuelle Fahrzeug wirklich despawnen?",
-      "deleteHeader": "Löschen",
-      "deleteMsg": "Möchtest du wirklich das aktuelle Fahrzeug aus der Datenbank löschen? Andere Tabellen (z.B. Kofferraum) bleiben unberührt!",
-      "changeOwnerHeader": "Wähle den neuen Besitzer",
-      "changeOwnerInput": "Citizen-ID des neuen Besitzers",
+      "despawnMsg": "vil du despawne dette køretøj?",
+      "deleteHeader": "Fjern",
+      "deleteMsg": "Vil du virkelig slette det aktuelle køretøj fra databasen og despawne det? Andre køretøjsrelaterede tabeller (f.eks. bagagerum) er ikke berørt!",
+      "changeOwnerHeader": "Vælg den nye ejer",
+      "changeOwnerInput": "Indsæt ny ejers Citizen-ID",
       "buttons": {
-        "changeOwner": "Besitzer ändern",
-        "despawnVehicle": "Fahrzeug despawnen",
-        "repairVehicle": "Fahrzeug reparieren",
-        "deleteVehicle": "Fahrzeug löschen"
+        "changeOwner": "Skift ejer",
+        "despawnVehicle": "Despawn Køretøj",
+        "repairVehicle": "Reparer Køretøj",
+        "deleteVehicle": "Fjern Køretøj"
       },
       "header": {
-        "owner": "Besitzer",
-        "payment": "Zahlungen",
-        "car": "Fahrzeug"
+        "owner": "Ejer",
+        "payment": "Betaling",
+        "car": "Bil"
       },
       "labels": {
-        "owner": "Besitzer",
+        "owner": "Ejer",
         "citizenid": "Citizen-ID",
-        "license": "Lizenz",
-        "depotprice": "Depotpreis",
-        "balance": "Guthaben",
-        "paymentamount": "Betrag",
-        "paymentsleft": "Übrig",
-        "financetime": "Finanzierungszeit",
+        "license": "License",
+        "depotprice": "Depot Pris",
+        "balance": "Balance",
+        "paymentamount": "Beløb",
+        "paymentsleft": "Udgik",
+        "financetime": "Finanstid",
         "model": "Model",
-        "plate": "Kennzeichen",
-        "fakeplate": "Fake Kennzeichen",
-        "drivingdistance": "Kilometerstand",
+        "plate": "Nummerplade",
+        "fakeplate": "Falsk nummerplade",
+        "drivingdistance": "Kilometertal",
         "garage": "Garage",
-        "state": "Status",
-        "fuel": "Sprit",
+        "state": "Stat",
+        "fuel": "Tank",
         "engine": "Motor",
-        "body": "Karosse"
+        "body": "Krop"
       },
       "msg": {
         "error": {
-          "noMatch": "Konnte Fahrzeug nicht finden. Wurde es vielleicht gelöscht?",
-          "not_spawned": "Fahrzeug ist nicht gespawnt.",
-          "not_found": "Da ist etwas schief gelaufen. Konnte Fahrzeug nicht finden.",
-          "missingData": "Fehlerhafte neue Besitzerdaten.",
-          "invalid_citizenid": "Die eingegebene Citizen-ID ist ungültig.",
-          "sql_error": "Beim Ausführen der SQL statements ist etwas schiefgelaufen. Es wurden keine Ämderungen vorgenommen!",
-          "allowedCharsNumbers": "Du kannst nur Leerzeichen, Nummern und Buchstaben für dein Kennzeichen verwenden.",
-          "plate_exists": "Das Kennzeichen existiert bereits. Bitte wähle ein anderes."
+          "noMatch": "Kunne ikke finde køretøjet. Måske er den blevet slettet?",
+          "not_spawned": "Køretøjet er ikke skabt.",
+          "not_found": "Noget gik galt. Kunne ikke finde køretøjet.",
+          "missingData": "Mangler nye ejerdata.",
+          "invalid_citizenid": "Det indsatte Citizen-ID er ikke gyldigt.",
+          "sql_error": "Noget gik galt under SQL loading. Ingen ændringer blev foretaget",
+          "allowedCharsNumbers": "Du kan kun bruge mellemrum, tal og tegn på nummerpladen",
+          "plate_exists": "Nummerpladen findes allerede. Vælg venligst en anden."
         }
       }
     },
     "vehicleCreate": {
-      "new": "Neues Fahrzeug anlegen"
+      "new": "Opret nyt køretøj"
     },
     "logs": {
-      "loadMore": "Nach oben scrollen um weitere Logs zu laden."
+      "loadMore": "Når du ruller op, indlæses flere logfiler."
     },
     "configuration": {
-      "colorsHeader": "Farben",
-      "colorsSub": "Passe das Template an deine Marke an.",
+      "colorsHeader": "Farver",
+      "colorsSub": "Lav temaet, så det passer til din stil.",
       "colors": {
-        "primary": "Primär",
-        "secondary": "Sekundär",
-        "accent": "Akzent",
-        "dark": "Hintergrund",
+        "primary": "Primær",
+        "secondary": "Sekundær",
+        "accent": "Accent",
+        "dark": "Baggrund",
         "positive": "Positiv",
         "negative": "Negativ",
-        "info": "Info",
-        "warning": "Warnung",
-        "main": "Text",
-        "sub": "Subtext"
+        "info": "Information",
+        "warning": "Advarsel",
+        "main": "Tekst",
+        "sub": "Subtekst"
       },
       "buttons": {
-        "undo": "Zurücksetzen",
+        "undo": "Fortryd",
         "defaults": "Standard"
       }
     },
     "inventory": {
-      "playerInventory": "Spieler",
-      "supporterStash": "Supporter Lager",
-      "itemName": "Name",
-      "amount": "Anzahl",
-      "infoSection": "Infoeinträge",
-      "infoSectionSub": "Füge Informationen in die Metadaten des Items ein.",
-      "addInfoValue": "Neuer Eintrag",
-      "infoName": "Name",
-      "infoValue": "Wert",
-      "deleteHeader": "Löschen",
-      "deleteMsg": "Willst du wirklich das Item löschen? Dies kann nicht rückgängig gemacht werden!",
-      "deleteInfoHeader": "Löschen",
-      "deleteInfoMsg": "Willst du wirklich den Eintrag <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
-      "addItemTip": "Neues Item hinzufügen",
-      "addItemHeader": "Hinzufügen",
-      "clearInvTip": "Inventar leeren",
-      "clearInvHeader": "Inventar leeren",
-      "clearInvMsg": "Willst du wirklich das komplette Spieler Inventar löschen? Dies kann nicht rückgängig gemacht werden!",
+      "playerInventory": "Spiller",
+      "supporterStash": "Supporter Genstande",
+      "itemName": "Navn",
+      "amount": "Antal",
+      "infoSection": "Info værdier",
+      "infoSectionSub": "Tilføj infovariabler til din nye genstand.",
+      "addInfoValue": "Tilføj ny",
+      "infoName": "Navn",
+      "infoValue": "Værdi",
+      "deleteHeader": "Slet",
+      "deleteMsg": "Vil du slette dette denne genstand? Dette kan ikke fortrydes!",
+      "deleteInfoHeader": "SLet",
+      "deleteInfoMsg": "Vil du slette oplysningerne <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
+      "addItemTip": "Tilføj ny genstand",
+      "addItemHeader": "Tilføj",
+      "clearInvTip": "Ryd inventory",
+      "clearInvHeader": "Ryd inventory",
+      "clearInvMsg": "Vil du virkelig rydde hele det hele? Dette kan ikke fortrydes!",
       "msg": {
         "error": {
-          "failedFetchItems": "Fehler beim Laden der Itemdefinitionen.",
-          "failedLoad": "Die Inventardaten konnten nicht geladen werden.",
-          "noItemName": "Kein Item ausgewählt.",
-          "unknown_citizenid": "Der Spieler scheint nicht zu existieren.",
-          "noSlot": "Kein freier Slot.",
-          "invalid_item": "Die Item Definitonen konnten nicht gefunden werden. Du solltest das Item ggf. löschen.",
-          "moved": "Das Item scheint bewegt worden zu sein. Bitte probiere es erneut.",
-          "negative": "Du kannst kein negative Anzahl bewegen.",
-          "not_enough": "Du hast nicht genug.",
-          "internal": "Interner Fehler. Bitte kontaktiere Unlimited.",
-          "uniqueInfo": "Infonamen müssen eindeutig sein."
+          "failedFetchItems": "Varedefinitioner kunne ikke hentes",
+          "failedLoad": "Kunne ikke hente inventar data.",
+          "noItemName": "Der er ikke valgt nogle genstand.",
+          "unknown_citizenid": "Spilleren findes ikke.",
+          "noSlot": "Ingen ledige slots.",
+          "invalid_item": "Kan ikke finde varedefinition. Måske fjern dette element",
+          "moved": "Genstanden ser ud til at være flyttet. Prøv igen.",
+          "negative": "Kan ikke flytte et negativt varebeløb.",
+          "not_enough": "Du har ikke nok af denne genstand.",
+          "internal": "Intern fejl. Kontakt venligst Unlimited.",
+          "uniqueInfo": "Infovariabler skal være unikke."
         }
       }
     },
     "devVehicleList": {
-      "subheader": "Alle Fahrzeuge aus der QBCore/Shared/vehicles.lua.",
-      "noData": "Keine Übereinstimmungen",
-      "loadData": "Lade Daten",
+      "subheader": "Alle biler fra QBCore/Shared/vehicles.lua.",
+      "noData": "Intet match",
+      "loadData": "Indlæs data",
       "headers": {
-        "name": "Name",
-        "brand": "Marke",
+        "name": "Navn",
+        "brand": "Mærke",
         "model": "Model",
         "hash": "Hash",
-        "price": "Preis",
-        "category": "Kategorie"
+        "price": "Pris",
+        "category": "Kategori"
       },
-      "recordsPerPage": "Zeilen pro Seite",
-      "paginationLabel": "{from}-{to} von {total}",
-      "createVehicle": "Fahrzeug anlegen"
+      "recordsPerPage": "Optegnelser pr. side",
+      "paginationLabel": "{from}-{to} af {total}",
+      "createVehicle": "Opret køretøj"
     },
     "devVehicle": {
-      "edit": "Fahrzeug bearbeiten",
+      "edit": "Redigør køretøj",
       "model": "Model",
       "hash": "Hash",
-      "name": "Name",
-      "brand": "Marke",
-      "category": "Kategorie",
-      "categoryLabel": "Kategoriebezeichnung",
-      "price": "Preis",
-      "shop": "Shop",
+      "name": "Navn",
+      "brand": "Mærke",
+      "category": "Kategori",
+      "categoryLabel": "Kategori label",
+      "price": "Pris",
+      "shop": "Butik",
       "msg": {
         "error": {
-          "invalid_veh_name": "Der Fahrzeug Name '{name}' ist kein String.",
-          "veh_exists": "Das Fahrzeug '{name}' existiert bereits.",
-          "veh_not_exists": "Das Fahrzeug '{name}' existiert nicht.",
-          "file_error": "Die Fahrzeugänderungen wurde live geschalten. Jedoch kam es beim Speichern der .lua zu einem Fehler. Nach einem Restart sind die Änderungen nicht mehr aktiv.",
-          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden."
+          "invalid_veh_name": "Køretøjets navn '{name}' er ikke typen String.",
+          "veh_exists": "Køretøjet '{name}' eksisterer allerede.",
+          "veh_not_exists": "Køretøjet '{name}' eksisterer ikke.",
+          "file_error": "Køretøjsskiftet er ændret. Der opstod dog en fejl under gemmelse af .lua. Efter et genstart er ændringerne ikke længere aktive.",
+          "missingFields": "Udfyld alle obligatoriske felter."
         }
       },
-      "deleteHeader": "Löschbestätigung",
-      "deleteMsg": "Willst du wirklich das Fahrzeug <span class='text-primary'>{model}</span> löschen? Dies kann nicht rückgängig gemacht werden!"
+      "deleteHeader": "Slet",
+      "deleteMsg": "Vil du slette <span class='text-primary'>{model}</span>? Dette kan ikke fortrydes!"
     },
     "devVehicleCreate": {
-      "new": "Neues Fahrzeug anlegen"
+      "new": "Opret nyt køretøj"
     },
     "auth": {
       "msg": {
         "error": {
-          "not_supported": "Der gewählte Provider scheint nicht unterstützt zu werden.",
-          "internal_error": "Interner Fehler. Bitte kontaktiere Unlimited mit einem Fehlerbericht.",
-          "no_token": "Der Anbieter hat nicht die benötigten Felder zurückgegeben.",
-          "userdata_fetch_failed": "Die Benutzerdaten konnten nicht abgerufen werden.",
-          "no_fx_user": "Kein Nutzer zu deinem FiveM Account gefunden."
+          "not_supported": "Den valgte udbyder ser ikke ud til at være understøttet.",
+          "internal_error": "Intern fejl. Kontakt Unlimited med din fejlmeddelelse.",
+          "no_token": "Tilbagekald gav ikke de nødvendige forespørgselsfelter.",
+          "userdata_fetch_failed": "Kunne ikke hente brugerdata fra udbyderen.",
+          "no_fx_user": "Ingen cfx.re bruger fundet fundet."
         }
       }
     },
     "waypointList": {
-      "subheader": "Verwalte deine Wegmarken.",
-      "createWaypoint": "Wegmarke erstellen",
-      "noData": "Keine Übereinstimmungen",
-      "loadData": "Lade Daten",
+      "subheader": "Administrer dine waypoints.",
+      "createWaypoint": "Sæt et waypoint",
+      "noData": "Intet match",
+      "loadData": "Indlæs data",
       "headers": {
-        "name": "Name",
+        "name": "Navn",
         "label": "Label",
-        "coords": "Koordinaten"
+        "coords": "Koordinater"
       },
-      "recordsPerPage": "Zeilen pro Seite",
-      "paginationLabel": "{from}-{to} von {total}"
+      "recordsPerPage": "Optegnelser pr. side",
+      "paginationLabel": "{from}-{to} af {total}"
     },
     "waypoint": {
-      "edit": "Wegmarke bearbeiten",
-      "waypoint": "Wegmarke",
+      "edit": "Rediger waypoint",
+      "waypoint": "Waypoint",
       "labels": {
-        "name": "Name",
+        "name": "Navn",
         "label": "Label",
-        "coords": "Koordinaten"
+        "coords": "Koordinater"
       },
       "msg": {
         "error": {
-          "waypoint_missing": "Die Wegmarke mit dem Namen '{name}' exisitert nicht (mehr).",
-          "waypoint_exist": "Die Wegmarke '{name}' existiert bereits.",
-          "no_waypoints": "Derzeit existieren keine Wegmarken.",
-          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden.",
-          "failedFetchWaypoints": "Fehler beim Laden der Wegmarken."
+          "waypoint_missing": "Waypoint med navnet '{name}' eksisterer ikke (længere).",
+          "waypoint_exist": "Waypoint med navnet '{name}' eksisterer allerede.",
+          "no_waypoints": "Der er i øjeblikket ingen tilgængelige waypoints.",
+          "missingFields": "Udfyld alle obligatoriske felter.",
+          "failedFetchWaypoints": "Kunne ikke hente waypoints."
         }
       },
-      "deleteHeader": "Löschen",
-      "deleteMsg": "Willst du wirklich die Wegmarke <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
-      "modalHeader": "Wähle eine Wegmarke"
+      "deleteHeader": "Slet",
+      "deleteMsg": "Vil du slette <span class='text-primary'>{name}</span>? Dette kan ikke fortrydes!",
+      "modalHeader": "Vælg et waypoint"
     },
     "accountList": {
-      "subheader": "Wähle die Spieler anhand Ihres Accounts aus..",
-      "noData": "Keine Übereinstimmungen",
-      "loadData": "Lade Daten",
+      "subheader": "Søg spiller efter deres konto.",
+      "noData": "Intet match",
+      "loadData": "Indlæs data",
       "headers": {
-        "name": "Name",
-        "license": "Lizenz",
-        "character_count": "Charaktere",
-        "last_active": "Zuletzt online"
+        "name": "Navn",
+        "license": "Licens",
+        "character_count": "Karakter",
+        "last_active": "Sidst online"
       },
-      "recordsPerPage": "Zeilen pro Seite",
-      "paginationLabel": "{from}-{to} von {total}"
+      "recordsPerPage": "Optegnelser pr. side",
+      "paginationLabel": "{from}-{to} af {total}"
     }
   }
 }
