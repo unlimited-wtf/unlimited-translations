@@ -502,13 +502,22 @@
       "changeAccountHeader": "Mudar licença",
       "changeAccountSub": "Quer mesmo mudar a licença do jogador <span class='text-primary'>{name}</span>? Não pode voltar atrás!",
       "playerScreenHeader": "Currente visão do Jogador",
+      "addMoneyHeader": "Adicionar dinheiro",
+      "addMoneyMsg": "Escreva a quantidade",
+      "removeMoneyHeader": "Remover dinheiro",
+      "removeMoneyMsg": "Escreva a quantidade",
       "buttons": {
         "unban": "Desbanir",
         "warn": "Aviso",
         "ban": "Banir",
         "kick": "Expulsar",
         "inventory": "Inventário",
-        "screen": "Mostrar tela"
+        "screen": "Mostrar tela",
+        "money": {
+          "set": "Colocar",
+          "give": "Adicionar",
+          "remove": "Remover"
+        }
       },
       "banMsg": "\uD83D\uDD28 por '{by}' pela '{reason}' até {expire}.",
       "moneyDisclaimer": "Isto não suporta dinheiro do tipo Item.",
@@ -587,7 +596,8 @@
           "failedFetchJobs": "Erro ao buscar is empregos.",
           "deleteError": "Algo de errado aconteceu.",
           "couldNotFetchScreen": "Erro ao verificar a tela currente dos jogadores.",
-          "invalid_citizenid": "O Citizen-ID emitido não é válido."
+          "invalid_citizenid": "O Citizen-ID emitido não é válido.",
+          "not_allowed": "O tipo do dinheiro não foi encontrado ou valores negativos não são permitidos."
         }
       }
     },
