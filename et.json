@@ -502,13 +502,22 @@
       "changeAccountHeader": "Vaheta litsentsi",
       "changeAccountSub": "Kas soovite tõesti mängija <span class='text-primary'>{name}</span> litsentsi muuta? Seda ei saa olematuks teha!",
       "playerScreenHeader": "Mängija hetkene ekraan",
+      "addMoneyHeader": "Lisa raha",
+      "addMoneyMsg": "Siseta kogus",
+      "removeMoneyHeader": "Eemalda",
+      "removeMoneyMsg": "Sisesta kogus",
       "buttons": {
         "unban": "Eemalda keelustus",
         "warn": "Hoiata",
         "ban": "Keelusta",
         "kick": "Kick",
         "inventory": "Inventuur",
-        "screen": "Näita mängija ekraani"
+        "screen": "Näita mängija ekraani",
+        "money": {
+          "set": "Vali",
+          "give": "Anna",
+          "remove": "Eemalda"
+        }
       },
       "banMsg": "\uD83D\uDD28 adminilt '{by}' põhjusel '{reason}' kuni {expire}.",
       "moneyDisclaimer": "See ei toeta mis tahes tüüpi raha esemena.",
@@ -587,7 +596,8 @@
           "failedFetchJobs": "Fraktsioonide otsimine ebaõnnestus.",
           "deleteError": "Midagi läks valesti.",
           "couldNotFetchScreen": "Tekkis error ekraani kuvamisel.",
-          "invalid_citizenid": "Sisestatud Citizen-ID pole õige."
+          "invalid_citizenid": "Sisestatud Citizen-ID pole õige.",
+          "not_allowed": "See raha tüüp pole lubatud."
         }
       }
     },
