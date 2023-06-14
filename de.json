@@ -760,17 +760,24 @@
       "categoryLabel": "Kategoriebezeichnung",
       "price": "Preis",
       "shop": "Shop",
+      "customVariables": "Weitere Variablen",
+      "customVarSub": "Erstelle eigene Variablen für dein Fahrzeug.",
+      "addCustomVar": "Neue Variable",
+      "customVarName": "Variable",
+      "customVarValue": "Wert",
       "msg": {
         "error": {
           "invalid_veh_name": "Der Fahrzeug Name '{name}' ist kein String.",
           "veh_exists": "Das Fahrzeug '{name}' existiert bereits.",
           "veh_not_exists": "Das Fahrzeug '{name}' existiert nicht.",
           "file_error": "Die Fahrzeugänderungen wurde live geschalten. Jedoch kam es beim Speichern der .lua zu einem Fehler. Nach einem Restart sind die Änderungen nicht mehr aktiv.",
-          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden."
+          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden.",
+          "uniqueVars": "Der Variablenname muss eindeutig sein."
         }
       },
       "deleteHeader": "Löschbestätigung",
-      "deleteMsg": "Willst du wirklich das Fahrzeug <span class='text-primary'>{model}</span> löschen? Dies kann nicht rückgängig gemacht werden!"
+      "deleteMsg": "Willst du wirklich das Fahrzeug <span class='text-primary'>{model}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
+      "deleteCustomVarMsg": "Willst du wirklich die Variable <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!"
     },
     "devVehicleCreate": {
       "new": "Neues Fahrzeug anlegen"
