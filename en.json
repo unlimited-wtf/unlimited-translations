@@ -760,17 +760,24 @@
       "categoryLabel": "Category label",
       "price": "Price",
       "shop": "Shop",
+      "customVariables": "Custom variables",
+      "customVarSub": "Create your own variables.",
+      "addCustomVar": "Add new variable",
+      "customVarName": "Variable",
+      "customVarValue": "Value",
       "msg": {
         "error": {
           "invalid_veh_name": "The vehicle name '{name}' is not type String.",
           "veh_exists": "The vehicle '{name}' already exists.",
           "veh_not_exists": "The vehicle '{name}' does not exist.",
           "file_error": "The vehicle change has gone live. However, an error occurred when saving the .lua. After a restart, the changes are no longer active.",
-          "missingFields": "Fill out all required fields."
+          "missingFields": "Fill out all required fields.",
+          "uniqueVars": "Variables must be unique."
         }
       },
       "deleteHeader": "Delete",
-      "deleteMsg": "Do you really want to delete <span class='text-primary'>{model}</span>? This cannot be undone!"
+      "deleteMsg": "Do you really want to delete <span class='text-primary'>{model}</span>? This cannot be undone!",
+      "deleteCustomVarMsg": "Do you really want to delete the variable <span class='text-primary'>{name}</span>? This cannot be undone!"
     },
     "devVehicleCreate": {
       "new": "Create new vehicle"

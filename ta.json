@@ -502,13 +502,22 @@
       "changeAccountHeader": "Change license",
       "changeAccountSub": "பிளேயருக்கான உரிமத்தை நீங்கள் உண்மையில் மாற்ற விரும்புகிறீர்களா <span class='text-primary'>{name}</span>? இதை மீணஂடூமஂ இயக்க முடியாது!",
       "playerScreenHeader": "வீரர்களின் தற்போதைய பார்வை",
+      "addMoneyHeader": "பணம் சேர்",
+      "addMoneyMsg": "தொகையை உள்ளிடவும்",
+      "removeMoneyHeader": "பணத்தை அகற்று",
+      "removeMoneyMsg": "தொகையை உள்ளிடவும்",
       "buttons": {
         "unban": "தடையை மீட்டமைக்கவும்",
         "warn": "எச்சரிக்கை",
         "ban": "தடை",
         "kick": "உதை",
         "inventory": "Inventory",
-        "screen": "திரையைக் காட்டு"
+        "screen": "திரையைக் காட்டு",
+        "money": {
+          "set": "அமைக்கவும்",
+          "give": "கொடுங்கள்",
+          "remove": "அகற்று"
+        }
       },
       "banMsg": "\uD83D\uDD28 '{by}'மூலம் '{reason}'க்கான {expire} வரை தடை விதிகஂகபஂபடுகிறது.",
       "moneyDisclaimer": "இது எந்த வகையிலும் பணத்தை உருப்படியாக ஆதரிக்காது.",
@@ -587,7 +596,8 @@
           "failedFetchJobs": "வேலைகளைப் பெற முடியவில்லை.",
           "deleteError": "ஏதோ தவறு நடந்துவிட்டது.",
           "couldNotFetchScreen": "வீரர்களின் தற்போதைய திரையைப் பெறுவதில் பிழை.",
-          "invalid_citizenid": "வழங்கப்பட்ட Citizen-ID தவறானது."
+          "invalid_citizenid": "வழங்கப்பட்ட Citizen-ID தவறானது.",
+          "not_allowed": "பண வக கணடபடககபபடவலல அலலத எதரமற மதபப அனமதககபபடவலல."
         }
       }
     },
@@ -750,17 +760,24 @@
       "categoryLabel": "Category label",
       "price": "Price",
       "shop": "Shop",
+      "customVariables": "விருப்ப மாறிகள்",
+      "customVarSub": "உங்கள் சொந்த மாறிகளை உருவாக்கவும்.",
+      "addCustomVar": "புதிய மாறியைச் சேர்க்கவும்",
+      "customVarName": "மாறி",
+      "customVarValue": "மதிப்பு",
       "msg": {
         "error": {
           "invalid_veh_name": "'{name}'எனுமஂ வாகனத்தின் பெயர் சரம் வகை அல்ல.",
           "veh_exists": "'{name}'எனுமஂ வாகனம் ஏற்கனவே உள்ளது.",
           "veh_not_exists": "'{name}'எனுமஂ வாகனம் இல்லை.",
           "file_error": "வாகன மாற்றம் நேரலையில் உள்ளது. இருப்பினும், .lua ஐச் சேமிக்கும் போது பிழை ஏற்பட்டது. மறுதொடக்கம் செய்த பிறகு, மாற்றங்கள் செயலில் இருக்காது.",
-          "missingFields": "தேவையான அனைத்து புலங்களையும் நிரப்பவும்."
+          "missingFields": "தேவையான அனைத்து புலங்களையும் நிரப்பவும்.",
+          "uniqueVars": "மாறிகள் தனிப்பட்டதாக இருக்க வேண்டும்."
         }
       },
       "deleteHeader": "அழி",
-      "deleteMsg": "நீங்கள் உண்மையில் நீக்க விரும்புகிறீர்களா <span class='text-primary'>{model}</span>? இதை மீணஂடூமஂ இயக்க முடியாது!"
+      "deleteMsg": "நீங்கள் உண்மையில் நீக்க விரும்புகிறீர்களா <span class='text-primary'>{model}</span>? இதை மீணஂடூமஂ இயக்க முடியாது!",
+      "deleteCustomVarMsg": "நீங்கள் உண்மையில் மாறியை நீக்க விரும்புகிறீர்களா <span class='text-primary'>{name}</span>? இதை மீணஂடூமஂ இயக்க முடியாது!"
     },
     "devVehicleCreate": {
       "new": "புதிய வாகனத்தை உருவாக்குங்கள்"

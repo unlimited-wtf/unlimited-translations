@@ -513,7 +513,7 @@
         "kick": "Wyrzuć",
         "inventory": "Ekwipunek",
         "screen": "Pokaż ekran",
-       "money": {
+        "money": {
           "set": "Ustaw",
           "give": "Daj",
           "remove": "Usuń"
@@ -760,17 +760,24 @@
       "categoryLabel": "Etykieta kategorii",
       "price": "Cena",
       "shop": "Sklep",
+      "customVariables": "Zmienne niestandardowe",
+      "customVarSub": "Twórz własne zmienne.",
+      "addCustomVar": "Dodaj nową zmienną",
+      "customVarName": "Zmienny",
+      "customVarValue": "Wartość",
       "msg": {
         "error": {
           "invalid_veh_name": "Nazwa pojazdu '{name}' nie jest typu String.",
           "veh_exists": "Pojazd '{name}' już istnieje.",
           "veh_not_exists": "Pojazd '{name}' nie istnieje.",
           "file_error": "Zmiana pojazdu została opublikowana. Wystąpił jednak błąd podczas zapisywania pliku .lua. Po ponownym uruchomieniu zmiany nie są już aktywne.",
-          "missingFields": "Wypełnij wszystkie wymagane pola."
+          "missingFields": "Wypełnij wszystkie wymagane pola.",
+          "uniqueVars": "Zmienne muszą być unikalne."
         }
       },
       "deleteHeader": "Usuń",
-      "deleteMsg": "Czy na pewno chcesz usunąć <span class='text-primary'>{model}</span>? Tego nie można cofnąć!"
+      "deleteMsg": "Czy na pewno chcesz usunąć <span class='text-primary'>{model}</span>? Tego nie można cofnąć!",
+      "deleteCustomVarMsg": "Czy na pewno chcesz usunąć zmienną <span class='text-primary'>{name}</span>? Tego nie można cofnąć!"
     },
     "devVehicleCreate": {
       "new": "Utwórz nowy pojazd"

@@ -1,4 +1,4 @@
-
+{
   "general": {
     "timestamp": "Zeitpunkt",
     "logout": "Ausloggen",
@@ -502,13 +502,22 @@
       "changeAccountHeader": "Lizenz ändern",
       "changeAccountSub": "Möchtest du wirklich die Lizenz für den Spieler <span class='text-primary'>{name}</span> ändern? Dies kann nicht rückgängig gemacht werden!",
       "playerScreenHeader": "Aktueller Spielerbildschirm",
+      "addMoneyHeader": "Geld geben",
+      "addMoneyMsg": "Geben Sie den Betrag ein",
+      "removeMoneyHeader": "Geld abziehen",
+      "removeMoneyMsg": "Geben Sie den Betrag ein",
       "buttons": {
         "unban": "Bann aufheben",
         "warn": "Verwarnen",
         "ban": "Bannen",
         "kick": "Kicken",
         "inventory": "Inventar",
-        "screen": "Bildschirm betrachten"
+        "screen": "Bildschirm betrachten",
+        "money": {
+          "set": "Festlegen",
+          "give": "Geben",
+          "remove": "Abziehen"
+        }
       },
       "banMsg": "\uD83D\uDD28 von '{by}' für '{reason}' bis {expire}.",
       "moneyDisclaimer": "Geld jeder Art als Item wird nicht unterstützt.",
@@ -587,7 +596,8 @@
           "failedFetchJobs": "Fehler beim Laden der Jobs.",
           "deleteError": "Da ist etwas schiefgelaufen.",
           "couldNotFetchScreen": "Fehler beim Laden des Spielerbildschirms.",
-          "invalid_citizenid": "Die eingegebene Citizen-ID ist ungültig."
+          "invalid_citizenid": "Die eingegebene Citizen-ID ist ungültig.",
+          "not_allowed": "Die Geldart ist entweder nicht gültig oder es ist kein negativer Wert erlaubt."
         }
       }
     },
@@ -750,17 +760,24 @@
       "categoryLabel": "Kategoriebezeichnung",
       "price": "Preis",
       "shop": "Shop",
+      "customVariables": "Weitere Variablen",
+      "customVarSub": "Erstelle eigene Variablen für dein Fahrzeug.",
+      "addCustomVar": "Neue Variable",
+      "customVarName": "Variable",
+      "customVarValue": "Wert",
       "msg": {
         "error": {
           "invalid_veh_name": "Der Fahrzeug Name '{name}' ist kein String.",
           "veh_exists": "Das Fahrzeug '{name}' existiert bereits.",
           "veh_not_exists": "Das Fahrzeug '{name}' existiert nicht.",
           "file_error": "Die Fahrzeugänderungen wurde live geschalten. Jedoch kam es beim Speichern der .lua zu einem Fehler. Nach einem Restart sind die Änderungen nicht mehr aktiv.",
-          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden."
+          "missingFields": "Es müssen alle Pflichtfelder ausgefüllt werden.",
+          "uniqueVars": "Der Variablenname muss eindeutig sein."
         }
       },
       "deleteHeader": "Löschbestätigung",
-      "deleteMsg": "Willst du wirklich das Fahrzeug <span class='text-primary'>{model}</span> löschen? Dies kann nicht rückgängig gemacht werden!"
+      "deleteMsg": "Willst du wirklich das Fahrzeug <span class='text-primary'>{model}</span> löschen? Dies kann nicht rückgängig gemacht werden!",
+      "deleteCustomVarMsg": "Willst du wirklich die Variable <span class='text-primary'>{name}</span> löschen? Dies kann nicht rückgängig gemacht werden!"
     },
     "devVehicleCreate": {
       "new": "Neues Fahrzeug anlegen"
