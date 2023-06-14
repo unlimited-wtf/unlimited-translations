@@ -760,17 +760,24 @@
       "categoryLabel": "Categoria label",
       "price": "Preço",
       "shop": "Loja",
+      "customVariables": "Variáveis customizáveis",
+      "customVarSub": "Crie a sua variável",
+      "addCustomVar": "Adicionar nova variável",
+      "customVarName": "Variável",
+      "customVarValue": "Valor",
       "msg": {
         "error": {
           "invalid_veh_name": "O nome do veículo '{name}' não é do tipo String.",
           "veh_exists": "O veículo '{name}' já existe.",
           "veh_not_exists": "O veículo '{name}' não existe.",
           "file_error": "As mudanças no veículo foram transmitidas. Porém, um erro aconteceu ao salvar o ficheiro .lua. Depois de reiniciar as mudanças voltaram.",
-          "missingFields": "Preencha todas os campos obrigatórios."
+          "missingFields": "Preencha todas os campos obrigatórios.",
+          "uniqueVars": "As variáveis devem ser únicas."
         }
       },
       "deleteHeader": "Apagar",
-      "deleteMsg": "Quer mesmo apagar <span class='text-primary'>{model}</span>? Não pode voltar atrás!"
+      "deleteMsg": "Quer mesmo apagar <span class='text-primary'>{model}</span>? Não pode voltar atrás!",
+      "deleteCustomVarMsg": "Quer mesmo apagar a variável <span class='text-primary'>{name}</span>? Não pode voltar atrás!"
     },
     "devVehicleCreate": {
       "new": "Criar novo veículo"
