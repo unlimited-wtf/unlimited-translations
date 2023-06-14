@@ -760,17 +760,24 @@
       "categoryLabel": "Category label",
       "price": "Price",
       "shop": "Shop",
+      "customVariables": "விருப்ப மாறிகள்",
+      "customVarSub": "உங்கள் சொந்த மாறிகளை உருவாக்கவும்.",
+      "addCustomVar": "புதிய மாறியைச் சேர்க்கவும்",
+      "customVarName": "மாறி",
+      "customVarValue": "மதிப்பு",
       "msg": {
         "error": {
           "invalid_veh_name": "'{name}'எனுமஂ வாகனத்தின் பெயர் சரம் வகை அல்ல.",
           "veh_exists": "'{name}'எனுமஂ வாகனம் ஏற்கனவே உள்ளது.",
           "veh_not_exists": "'{name}'எனுமஂ வாகனம் இல்லை.",
           "file_error": "வாகன மாற்றம் நேரலையில் உள்ளது. இருப்பினும், .lua ஐச் சேமிக்கும் போது பிழை ஏற்பட்டது. மறுதொடக்கம் செய்த பிறகு, மாற்றங்கள் செயலில் இருக்காது.",
-          "missingFields": "தேவையான அனைத்து புலங்களையும் நிரப்பவும்."
+          "missingFields": "தேவையான அனைத்து புலங்களையும் நிரப்பவும்.",
+          "uniqueVars": "மாறிகள் தனிப்பட்டதாக இருக்க வேண்டும்."
         }
       },
       "deleteHeader": "அழி",
-      "deleteMsg": "நீங்கள் உண்மையில் நீக்க விரும்புகிறீர்களா <span class='text-primary'>{model}</span>? இதை மீணஂடூமஂ இயக்க முடியாது!"
+      "deleteMsg": "நீங்கள் உண்மையில் நீக்க விரும்புகிறீர்களா <span class='text-primary'>{model}</span>? இதை மீணஂடூமஂ இயக்க முடியாது!",
+      "deleteCustomVarMsg": "நீங்கள் உண்மையில் மாறியை நீக்க விரும்புகிறீர்களா <span class='text-primary'>{name}</span>? இதை மீணஂடூமஂ இயக்க முடியாது!"
     },
     "devVehicleCreate": {
       "new": "புதிய வாகனத்தை உருவாக்குங்கள்"
