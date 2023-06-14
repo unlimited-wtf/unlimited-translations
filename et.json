@@ -760,17 +760,24 @@
       "categoryLabel": "Kategooria nimi",
       "price": "Hind",
       "shop": "Pood",
+      "customVariables": "Kohandatud muutujad",
+      "customVarSub": "Looge oma muutujad.",
+      "addCustomVar": "Lisa uus muutuja",
+      "customVarName": "Muutuja",
+      "customVarValue": "Summa",
       "msg": {
         "error": {
           "invalid_veh_name": "Sõiduki nimi '{name}' ei ole tüüp String.",
           "veh_exists": "Sõiduk „{name}” on juba olemas.",
           "veh_not_exists": "Sõidukit '{name}' ei eksisteeri.",
           "file_error": "Sõidukivahetus on tehtud. Kuid faili .lua salvestamisel ilmnes viga. Pärast taaskäivitamist pole muudatused enam aktiivsed.",
-          "missingFields": "Täitke kõik nõutavad väljad."
+          "missingFields": "Täitke kõik nõutavad väljad.",
+          "uniqueVars": "Muutujad peavad olema kordumatud."
         }
       },
       "deleteHeader": "Kustuta",
-      "deleteMsg": "Kas soovite tõesti <span class='text-primary'>{model}</span> kustutada? Seda ei saa olematuks teha!"
+      "deleteMsg": "Kas soovite tõesti <span class='text-primary'>{model}</span> kustutada? Seda ei saa olematuks teha!",
+      "deleteCustomVarMsg": "Kas soovite tõesti muutuja <span class='text-primary'>{name}</span> kustutada? Seda ei saa olematuks teha!"
     },
     "devVehicleCreate": {
       "new": "Loo uus sõiduk"
