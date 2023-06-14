@@ -761,17 +761,24 @@
       "categoryLabel": "Kategori etikett",
       "price": "Pris",
       "shop": "Butikk",
+      "customVariables": "Egendefinerte variabler",
+      "customVarSub": "Lag dine egne variabler.",
+      "addCustomVar": "Legg til ny variabel",
+      "customVarName": "Variabel",
+      "customVarValue": "Verdi",
       "msg": {
         "error": {
           "invalid_veh_name": "Kjøretøysnavnet '{name}' er ikke typen String.",
           "veh_exists": "Kjøretøyet '{name}' eksisterer allerede.",
           "veh_not_exists": "Kjøretøyet '{name}' eksisterer ikke.",
           "file_error": "Kjøretøyendringen har gått live. Det oppstod imidlertid en feil ved lagring av .lua. Etter en omstart er endringene ikke lenger aktive.",
-          "missingFields": "Fyll ut alle obligatoriske felt."
+          "missingFields": "Fyll ut alle obligatoriske felt.",
+          "uniqueVars": "Variablene må være unike."
         }
       },
       "deleteHeader": "Slette",
-      "deleteMsg": "Vil du virkelig slette <span class='text-primary'>{model}</span>? Dette kan ikke angres!"
+      "deleteMsg": "Vil du virkelig slette <span class='text-primary'>{model}</span>? Dette kan ikke angres!",
+      "deleteCustomVarMsg": "Vil du virkelig slette variabelen <span class='text-primary'>{name}</span>? Dette kan ikke angres!"
     },
     "devVehicleCreate": {
       "new": "Opprett ny kjøretøy"
