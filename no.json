@@ -8,10 +8,11 @@
     "setupToken": "Token",
     "languages": {
       "de": "Tysk",
-      "no": "Norsk",
       "en": "Engelsk",
       "dk": "Dasnk",
       "et": "Estisk",
+      "nl": "Nederlandsk",
+      "no": "Norsk",
       "pl": "Polsk",
       "pt": "Portugesisk",
       "ta": "Indisk - Tamil"
@@ -143,7 +144,8 @@
         "character": "Karakter",
         "job": "Jobb",
         "count": "Antall",
-        "gang": "Gjeng"
+        "gang": "Gjeng",
+        "rank": "Rang"
       }
     },
     "setup": {
