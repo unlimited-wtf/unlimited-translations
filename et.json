@@ -11,6 +11,8 @@
       "en": "Inglise",
       "dk": "Taani",
       "et": "Eesti",
+      "nl": "Hollandi",
+      "no": "Norra",
       "pl": "Polski",
       "pt": "Portugaal",
       "ta": "India - Tamil"
@@ -142,7 +144,8 @@
         "character": "Karakter",
         "job": "Fraktsioon",
         "count": "Kogus",
-        "gang": "Grupeering"
+        "gang": "Grupeering",
+        "rank": "Koht"
       }
     },
     "setup": {
