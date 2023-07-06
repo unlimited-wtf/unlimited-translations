@@ -11,6 +11,8 @@
       "en": "Angielski",
       "dk": "Duński",
       "et": "Estonia",
+      "nl": "Holenderski",
+      "no": "Norweski",
       "pl": "Polski",
       "pt": "Portuguese",
       "ta": "Indian - Tamil"
@@ -142,7 +144,8 @@
         "character": "Postać",
         "job": "Praca",
         "count": "Ilość",
-        "gang": "Gang"
+        "gang": "Gang",
+        "rank": "Ranga"
       }
     },
     "setup": {
