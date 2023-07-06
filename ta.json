@@ -11,6 +11,8 @@
       "en": "English",
       "dk": "Danish",
       "et": "Estonia",
+      "nl": "Dutch",
+      "no": "Norwegian",
       "pl": "Polski",
       "pt": "Portuguese",
       "ta": "Indian - Tamil"
@@ -142,7 +144,8 @@
         "character": "பாத்திரம்",
         "job": "வேலை",
         "count": "எண்ணு",
-        "gang": "கும்பல்"
+        "gang": "கும்பல்",
+        "rank": "தரவரிசை"
       }
     },
     "setup": {
