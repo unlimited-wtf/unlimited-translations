@@ -11,6 +11,8 @@
       "en": "English",
       "dk": "Danish",
       "et": "Estonia",
+      "nl": "Hollandsk",
+      "no": "Norsk",
       "pl": "Polski",
       "pt": "Portugisisk",
       "ta": "Indisk - Tamil"
@@ -142,7 +144,8 @@
         "character": "Karakter",
         "job": "Arbejde",
         "count": "Antal",
-        "gang": "Bande"
+        "gang": "Bande",
+        "rank": "Rang"
       }
     },
     "setup": {
